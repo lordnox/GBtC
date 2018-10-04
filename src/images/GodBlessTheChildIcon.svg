@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g>
+        <clipPath id="_clip1">
+            <circle cx="250" cy="250" r="250"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g transform="matrix(1.02987,0,0,1.02987,-14.3898,-7.66205)">
+                <rect x="15.2" y="7.44" width="483.04" height="485.496" style="fill:rgb(4,50,108);"/>
+            </g>
+            <g transform="matrix(1.87642,0,0,2.06726,-242.622,-223.186)">
+                <path d="M357.662,228.896C357.662,276.551 315.036,315.242 262.534,315.242C210.031,315.242 167.405,276.551 167.405,228.896C167.405,181.24 210.031,142.549 262.534,142.549C315.036,142.549 357.662,181.24 357.662,228.896" style="fill:none;stroke:rgb(255,217,0);stroke-width:18.74px;"/>
+            </g>
+            <g transform="matrix(1.43077,0,0,1.40499,-239.067,-117.434)">
+                <path d="M186.815,248.538L352.254,407.806L21.375,407.806L186.815,248.538Z" style="fill:rgb(4,50,108);"/>
+            </g>
+            <g transform="matrix(1.68737,0,0,1.26373,-155.028,-72.9856)">
+                <path d="M350.181,146.692L450.961,255.839L249.402,255.839L350.181,146.692Z" style="fill:rgb(4,50,108);"/>
+            </g>
+            <g transform="matrix(1.01258,0,0,0.950516,-23.9307,43.6269)">
+                <clipPath id="_clip2">
+                    <ellipse cx="270.528" cy="217.117" rx="194.553" ry="207.256"/>
+                </clipPath>
+                <g clip-path="url(#_clip2)">
+                    <path d="M79.859,201.887L298.528,420.266" style="stroke:rgb(255,140,0);stroke-width:37.68px;stroke-linecap:square;"/>
+                </g>
+            </g>
+            <path d="M412.82,268.615C389.205,268.615 361.889,268.488 339.032,268.488" style="stroke:rgb(255,217,0);stroke-width:37px;stroke-linecap:square;"/>
+        </g>
+    </g>
+</svg>
