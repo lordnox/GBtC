@@ -1,12 +1,29 @@
 import React from 'react'
 import Layout from '../components/layout'
+import TeaserImage from '../components/teaser-image'
 
-export default () => (
-  <Layout>
-    <h1>Hi! I'm building a fake Gatsby site as part of a tutorial!</h1>
-    <p>
-      What do I like to do? Lots of course but definitely enjoy building
-      websites.
-    </p>
-  </Layout>
-)
+export default ({ data }) => {
+  console.log(data.file.childImageSharp.fixed.src)
+  return (
+    <Layout>
+      <TeaserImage
+        imageUrl={data.file.childImageSharp.fixed.src}
+        alt="Konzert am 03.12.2018"
+        url="/2018-12-03-concert"
+        teaser="Neues Konzert!"
+      />
+    </Layout>
+  )
+}
+
+export const query = graphql`
+  query {
+    file(relativePath: { eq: "2018-12-03-concert/IMG_2006.jpg" }) {
+      childImageSharp {
+        fixed(width: 960, height: 500) {
+          src
+        }
+      }
+    }
+  }
+`

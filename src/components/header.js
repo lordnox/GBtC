@@ -1,31 +1,36 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { css } from "react-emotion"
+import { primary, accent, additional } from '../theme/palette'
+import { rhythm } from "../utils/typography"
 
 const Header = ({ siteTitle }) => (
   <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
+    className={css`
+      padding: ${rhythm(2)};
+      text-align: center;
+    `}
   >
+    <h1 style={{ margin: 0 }}>
+      <Link
+        to="/"
+        className={css`
+          text-decoration: none;
+          font-weight: normal;
+          color: ${additional.darker1};
+        `}
+      >
+        <span
+          className={css`
+            font-weight: normal;
+            color: ${additional.darker2};
+          `}
+        >{siteTitle.substr(0, 1)}</span>
+        <span>{siteTitle.substr(1)}</span>
+      </Link>
+    </h1>
     <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
     </div>
   </div>
 )

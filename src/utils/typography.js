@@ -6,4 +6,6 @@ import moragaTheme from 'typography-theme-moraga'
 
 const typography = new Typography(moragaTheme)
 
+export const rhythm = typography.rhythm
+
 export default typography
