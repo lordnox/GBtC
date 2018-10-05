@@ -4,6 +4,7 @@ import Container  from '../components/container'
 import FullWidthImage from '../components/full-width-image'
 import { rhythm } from "../utils/typography"
 import styled, { css } from "react-emotion"
+import { graphql } from 'gatsby'
 
 const BoldParagraph = styled('p')`
   font-size: 20px;

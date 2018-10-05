@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import TeaserImage from '../components/teaser-image'
+import { graphql } from 'gatsby'
 
 export default ({ data }) => {
   console.log(data.file.childImageSharp.fixed.src)
