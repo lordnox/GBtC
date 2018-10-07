@@ -4,18 +4,15 @@ import TeaserImage from '../components/teaser-image'
 import { graphql } from 'gatsby'
 
 export default ({ data }) => {
+  console.log(data.file.childImageSharp.fixed.src)
   return (
     <Layout>
-      <div style={{
-        fontSize: 48,
-        textAlign: 'center',
-        position: 'fixed',
-        left: '50%',
-        top: '50%',
-        transform: 'translate(-50%, -50%)',
-      }}>
-        Coming soon&hellip;
-      </div>
+      <TeaserImage
+        imageUrl={data.file.childImageSharp.fixed.src}
+        alt="Konzert am 03.12.2018"
+        url="/2018-12-03-concert"
+        teaser="Neues Konzert!"
+      />
     </Layout>
   )
 }
